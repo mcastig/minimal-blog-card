@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NgOptimizedImage } from '@angular/common'
+import { BlogCardComponent } from '../app/blog-card/blog-card.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
-    NgOptimizedImage
+    BlogCardComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
